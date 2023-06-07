@@ -1,15 +1,2 @@
 #!/bin/bash
-"Files in current directory:"
-ls -al
-
-# Move to the parent directory
-cd ..
-
-"Files in parent directory:"
-ls -al
-
-# Move to the /boot directory
-cd /boot
-
-"Files in /boot directory:"
-ls -al
+ls . .. /boot -la
